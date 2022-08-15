@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://example.com"
+baseURL = "https://lustrous-zabaione-01fda3.netlify.app/"
 languageCode = "en-US"
 title = "Sarah Wells Consulting Ltd"
 theme = "hugo-split-theme"
