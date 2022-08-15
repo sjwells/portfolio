@@ -1,0 +1,96 @@
+.fs-split .split-image {
+  width: 30%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.fs-split .split-content {
+  width: 70%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+body {
+  background-color: #FFFFFF;
+  border-style: none;
+}
+
+body,
+p,
+a,
+a:hover {
+  color: #1f1f1f;
+}
+
+body.page-template-page-fullsingle-split {
+  background-color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  letter-spacing: -0.2px;
+  color: #1f1f1f;
+  animation: fadein 2s;
+}
+
+body.page-template-page-fullsingle-split p {
+  color: #1f1f1f;
+}
+
+.split-intro h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 40px;
+  letter-spacing: 0.4px;
+  color: #63afa4;
+}
+
+.split-intro .tagline {
+  color: #a463af;
+}
+
+.split-bio p {
+  color: #7e63af;
+  margin-bottom: 20px;
+  line-height: inherit;
+}
+
+.split-bio a {
+  color: #7e63af;
+  transition-duration: 0.5s;
+  border-bottom: 1px dotted #7e63af;
+}
+
+.split-bio a:hover {
+  color: #7e63af;
+  transition-duration: 0.1s;
+  border-bottom: 1px dotted #7e63af;
+}
+
+.split-lists .split-list h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 40px;
+  color: #63afa4;
+  letter-spacing: 2px;
+}
+.split-lists .split-list ul li {
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 12px;
+}
+.split-lists .split-list ul li a {
+  color: #7e63af;
+  transition-duration: 0.5s;
+}
+.split-lists .split-list ul li a:hover {
+  color: #7e63af;
+  transition-duration: 0.1s;
+}
